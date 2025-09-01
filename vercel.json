@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "image_logger.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/image_logger.py",
+      "dest": "image_logger.py"
+    }
+  ]
+}
